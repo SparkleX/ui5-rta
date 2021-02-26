@@ -16,7 +16,7 @@ app.use(koaMount("/mock/actions/getcsrftoken/", async function (ctx, next){
 
 app.use(koaMount("/mock/changes", async function (ctx, next){
 	console.dir(ctx.request.body, { depth: null });
-
+	ctx.body = {};
 }));
 
 app.use(koaStatic("src"));

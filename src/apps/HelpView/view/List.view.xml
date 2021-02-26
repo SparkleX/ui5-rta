@@ -6,11 +6,13 @@
 	xmlns:mvc="sap.ui.core.mvc.View"
 	xmlns:f="sap.f"
 	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns:widget="demo.widget"
 	displayBlock="true">
 	<Page id="page">
 		<headerContent>
 		</headerContent>
 		<Label id="label1" text="Label 1"></Label>
 		<Label id="label2" text="Label 2"></Label>
+		<widget:Label id="label3" text="Label 3"></widget:Label>
 	</Page>	
 </mvc:View>
