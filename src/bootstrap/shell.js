@@ -14,10 +14,27 @@ function bootstrap(fnCallback) {
 		oRendererConfig.rootIntent = "Shell-home";
 	}
 	sap.ushell.bootstrap("local").done(fnCallback);
-
-
 }
 
+const flexibilityServices = [ {
+	"connector": "KeyUserConnector", 
+	"url":"/mock",
+	"settings": {
+		"isKeyUser": true
+	}
+}];
 window["sap-ui-config"] = {
-	"xx-bootTask": bootstrap
+	"xx-bootTask": bootstrap,
+	"libs": "sap.ushell, sap.collaboration, sap.m, sap.ui.layout, sap.suite.ui.microchart, sap.suite.ui.commons, sap.ui.rta",
+	"theme": "sap_fiori_3",
+	"compatVersion": "edge",
+	"preload": "async",
+	"frameOptions": "allow",
+	"xx-disableCustomizing": false,
+	"xx-bindingSyntax": "complex",
+	"xx-loadAllMode": true,
+	"resourceroots": {
+		"demo":"/"
+	},
+	"flexibilityServices": "/mock"//JSON.stringify(flexibilityServices)
 };

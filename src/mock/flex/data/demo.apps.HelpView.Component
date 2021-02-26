@@ -1,0 +1,88 @@
+{
+	"changes": [
+		{
+			"fileName": "id_1614319195803_68_rename",
+			"fileType": "change",
+			"changeType": "rename",
+			"moduleName": "",
+			"reference": "demo.apps.HelpView.Component",
+			"packageName": "$TMP",
+			"content": {
+				"originalControlType": "sap.m.Label"
+			},
+			"selector": {
+				"id": "list--label1",
+				"idIsLocal": true
+			},
+			"layer": "CUSTOMER",
+			"texts": {
+				"newText": {
+					"value": "123",
+					"type": "XFLD"
+				}
+			},
+			"namespace": "apps/demo.apps.HelpView/changes/",
+			"projectId": "demo.apps.HelpView",
+			"creation": "",
+			"originalLanguage": "EN",
+			"support": {
+				"generator": "sap.ui.rta FlexCommand",
+				"service": "",
+				"user": "",
+				"sapui5Version": "1.86.3",
+				"sourceChangeFileName": "",
+				"compositeCommand": "",
+				"command": "rename"
+			},
+			"oDataInformation": {},
+			"dependentSelector": {},
+			"jsOnly": false,
+			"variantReference": "",
+			"appDescriptorChange": false
+		},
+		{
+			"fileName": "id_1614319200039_69_rename",
+			"fileType": "change",
+			"changeType": "rename",
+			"moduleName": "",
+			"reference": "demo.apps.HelpView.Component",
+			"packageName": "$TMP",
+			"content": {
+				"originalControlType": "sap.m.Label"
+			},
+			"selector": {
+				"id": "list--label2",
+				"idIsLocal": true
+			},
+			"layer": "CUSTOMER",
+			"texts": {
+				"newText": {
+					"value": "123123",
+					"type": "XFLD"
+				}
+			},
+			"namespace": "apps/demo.apps.HelpView/changes/",
+			"projectId": "demo.apps.HelpView",
+			"creation": "",
+			"originalLanguage": "EN",
+			"support": {
+				"generator": "sap.ui.rta FlexCommand",
+				"service": "",
+				"user": "",
+				"sapui5Version": "1.86.3",
+				"sourceChangeFileName": "",
+				"compositeCommand": "",
+				"command": "rename"
+			},
+			"oDataInformation": {},
+			"dependentSelector": {},
+			"jsOnly": false,
+			"variantReference": "",
+			"appDescriptorChange": false
+		}
+	],
+	"compVariants": [],
+	"settings": {
+		"isKeyUser": true
+	}
+}
