@@ -1,0 +1,24 @@
+{
+  "name": "ui5-rta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SparkleX/ui5-rta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SparkleX/ui5-rta/issues"
+  },
+  "homepage": "https://github.com/SparkleX/ui5-rta#readme",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-logger": "^3.2.1",
+    "koa-static": "^5.0.0"
+  }
+}
