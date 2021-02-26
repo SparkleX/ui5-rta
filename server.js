@@ -9,19 +9,15 @@ const app = new Koa();
 app.use(koaLogger());
 app.use(bodyParser());
 
-app.use(koaMount("/mock/flex/keyuser/v1/data/demo.apps.HelpView.Component", async function (ctx, next){
-	ctx.body = jsonfile.readFileSync("src/mock/flex/keyuser/v1/data/demo.apps.HelpView.Component");
-}));
 app.use(koaMount("/mock/actions/getcsrftoken/", async function (ctx, next){
 	ctx.set("X-CSRF-Token","123");
-	ctx.body = "123";
+	ctx.body = "";
 }));
 
 app.use(koaMount("/mock/changes", async function (ctx, next){
 	console.dir(ctx.request.body, { depth: null });
-	ctx.body = '{ "test":1 }';
-}));
 
+}));
 
 app.use(koaStatic("src"));
 
